@@ -1,0 +1,99 @@
+/* for top banner of webpage*/
+
+.headerGridContainer {
+    display: grid;
+    grid-template-areas:
+    'header logo logo logo';
+    grid-gap: 10px; 
+    background-color: #2196F3;
+  padding: 10px;
+  margin-bottom: 2%;
+  }
+  
+  
+  .item1Header {
+     grid-area: header;
+     font-size: 50px;
+     padding: 2%; 
+     color: white;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 72px;
+     line-height: 84px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  
+  
+  .item2Header {
+     grid-area: 'logo';
+  
+  }
+  
+  
+  
+      /* for grid contents of webpage*/
+  .item1 {grid-area: category1;}
+  .item2 {grid-area: image1;}
+  .item3 {grid-area: image12;}
+  .item4 {grid-area: category2;}
+  .item5 {grid-area: image21;}
+  .item6 {grid-area: image22;}
+  .item7 {grid-area: category3;}
+  .item8 {grid-area: image31;}
+  .item9 {grid-area: image32;}
+  
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas: 
+    'category1 image1 image12'
+    'category2 image21 image22'
+    'category3 image31 image32';
+    grid-gap: 10px; 
+    background-color: #2196F3;
+  padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  /*Footer banner stuff*/ 
+  .footerGridContainer {
+    display: grid;
+    grid-template-areas:
+    'footer logo';
+    grid-gap: 10px; 
+    background-color:orange;
+  padding: 10px;
+  }
+  
+  
+  .item1Footer {
+     grid-area: footer;
+     font-size: 50px;
+     padding: 2%; 
+     color: white;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 72px;
+     line-height: 84px;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .item2Footer {
+      grid-area: logo;
+  }
+    
