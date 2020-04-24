@@ -1,0 +1,41 @@
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+
+.grid > div {
+  background: black;
+  padding: 1rem;
+  position: relative;
+}
+
+.grid > div::before {
+  content: "";
+  padding-top: 100%;
+  display: block;
+}
+
+.grid > div > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  bottom: 0;
+}
+
+.body {
+  margin: 2rem;
+  }
+/* Define standard variables and values for website */
+/* Use the variables */
+.color1 {
+ color: #add8e6; }
+
+.color2 {
+  background-color: #759900; }
+
+/*# sourceMappingURL=styles.css.map */
